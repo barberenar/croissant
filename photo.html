@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Croissant Photo</title>
+    <meta
+      name="description"
+      content="Take a look at this Croissant in images so you can recognize it in real life."
+    />
+    <title>Croissant In Photo - BrandCroissant</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,6 +16,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/styles/styles.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-E4TDV8V4BK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-E4TDV8V4BK");
+    </script>
   </head>
   <body>
     <section class="text-center">
@@ -19,23 +37,25 @@
       <img
         class="img-fluid border border-success rounded p-1 m-1"
         src="/images/croissant.jpg"
+        title="A croissant"
+        alt="Croissant served on a plate"
       />
       <footer class="container">
         <div class="row">
           <div
             class="col-sm-4 d-flex justify-content-center align-items-center"
           >
-            <a href="/">Homepage</a>
+            <a href="/">Go To Our Homepage</a>
           </div>
           <div
             class="col-sm-4 d-flex justify-content-center align-items-center"
           >
-            <a href="/photo.html">Photo</a>
+            <a href="/photo.html">How A Croissant Looks Like</a>
           </div>
           <div
             class="col-sm-4 d-flex justify-content-center align-items-center"
           >
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html">Contact Us Here</a>
           </div>
         </div>
       </footer>
